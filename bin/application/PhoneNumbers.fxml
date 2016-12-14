@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="137.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ShowPhonesController">
+   <children>
+      <Button fx:id="buttonSave" layoutX="140.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#saveFile" text="Зберегти в файл" />
+      <ChoiceBox fx:id="zal" layoutX="96.0" layoutY="51.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="55.0" text="Оберіть зал" />
+      <Label layoutX="9.0" layoutY="14.0" prefHeight="21.0" prefWidth="369.0" text="Номери телефонів ТІЛЬКИ заброньованих місць!">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

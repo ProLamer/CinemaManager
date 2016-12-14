@@ -1,0 +1,28 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+VBox .button{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.clicked{
+	-fx-background-color: green;
+}
+.booked{
+	-fx-background-color: green;
+}
+.booked_checked{
+	-fx-background-color: lightgreen;
+}
+.paid{
+	-fx-background-color: lightgreen;
+	-fx-opacity: 0.5;
+}
+.paid_checked{
+	-fx-background-color: lightgreen;
+	-fx-opacity: 0.8;
+}
+#refreshButton{
+	-fx-background-image: url("refresh1.png");
+}

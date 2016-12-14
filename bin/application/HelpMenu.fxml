@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="help" prefHeight="428.0" prefWidth="567.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HelpMenuController">
+   <children>
+      <Label id="welcome-text" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="59.0" prefWidth="534.0" text="Cinema Manager v1.2">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label id="label1" layoutX="15.0" layoutY="65.0" prefHeight="50.0" prefWidth="527.0" text="Накодив Булейко Валентин за декілька безсонних ночей." />
+      <Label id="label1" layoutX="14.0" layoutY="107.0" prefHeight="39.0" prefWidth="527.0" text="Якщо у вас виникли труднощі або питання, то ви знаєте як мене знайти." />
+      <Label layoutX="507.0" layoutY="396.0" prefHeight="18.0" prefWidth="46.0" text="fsociety" />
+   </children>
+</AnchorPane>

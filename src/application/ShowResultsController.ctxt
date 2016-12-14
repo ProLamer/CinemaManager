@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=location\ resources
+comment0.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment1.params=admin\ status
+comment1.target=java.lang.String\ showNum(java.lang.String,\ int)
+comment2.params=admin
+comment2.target=java.lang.String\ showSalary(java.lang.String)
+numComments=3

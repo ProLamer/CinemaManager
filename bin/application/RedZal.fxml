@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="616.0" prefWidth="950.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox fx:id="VBoxRed" layoutX="-8.0" layoutY="52.0" prefHeight="400.0" prefWidth="685.0" stylesheets="@application.css">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="580.0" onMouseEntered="#onAnchorPaneEntered" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ekran.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="1" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="2" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="3" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="4" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="5" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="6" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="7" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="8" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="9" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="10" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="1 ряд">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets right="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="11" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="12" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="13" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="14" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="15" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="16" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="17" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="18" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="19" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="20" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="2 ряд">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="21" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="22" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="23" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="24" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="25" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="26" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="27" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="28" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="29" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="30" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="3 ряд">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets right="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="31" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="32" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="33" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="34" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="35" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="36" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="37" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="38" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="39" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="40" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="4 ряд">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="41" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="42" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="43" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="44" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="45" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="46" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="47" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="48" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="49" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="50" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="5 ряд">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets right="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="51" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="52" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="53" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="54" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="55" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="56" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="57" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="58" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="59" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="60" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="6 ряд">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="61" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="10">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="62" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="63" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="64" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="65" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="66" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="67" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="68" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="69" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="70" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="7 ряд">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets right="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="71" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="72" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="73" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="74" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="75" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="76" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="77" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="78" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="79" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="8 ряд">
+                     <HBox.margin>
+                        <Insets left="50.0" right="-65.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets right="50.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <Button id="80" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="9">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="81" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="8">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="82" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="7">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="83" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="6">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="84" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="5">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="85" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="4">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="86" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="3">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="87" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="2">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="88" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onButtonMouseEntered" prefWidth="45.0" styleClass="sit" text="1">
+                     <HBox.margin>
+                        <Insets left="3.0" right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="9 ряд">
+                     <HBox.margin>
+                        <Insets left="30.0" right="-85.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets right="50.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <Label layoutX="716.0" layoutY="118.0" text="Ім'я" />
+      <ChoiceBox fx:id="zal" layoutX="752.0" layoutY="81.0" prefWidth="150.0" />
+      <TextArea fx:id="messageTextArea" layoutX="708.0" layoutY="367.0" prefHeight="180.0" prefWidth="239.0" />
+      <Button fx:id="refresh" layoutX="657.0" layoutY="48.0" mnemonicParsing="false" onMouseClicked="#onRefreshButtonClick" prefHeight="32.0" prefWidth="32.0" styleClass="refreshButton" stylesheets="@application.css" />
+      <ChoiceBox fx:id="administrators" layoutX="752.0" layoutY="51.0" prefWidth="150.0" />
+      <TextField fx:id="price" layoutX="758.0" layoutY="239.0" />
+      <Label layoutX="682.0" layoutY="243.0" text="Ціна квитка" />
+      <TextField fx:id="phoneNumber" layoutX="754.0" layoutY="197.0" />
+      <Label layoutX="649.0" layoutY="201.0" text="Номер Телефону" />
+      <Label layoutX="689.0" layoutY="156.0" text="Прізвище" />
+      <TextField fx:id="lName" layoutX="754.0" layoutY="152.0" />
+      <TextField fx:id="name" layoutX="754.0" layoutY="114.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="465.0" layoutY="471.0" prefHeight="26.0" prefWidth="109.0" text="- оплачені">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="438.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@paid.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="219.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@booked.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="87.0" layoutY="471.0" prefHeight="25.0" prefWidth="109.0" text="- вільні">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="52.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@free.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="247.0" layoutY="471.0" prefHeight="17.0" prefWidth="149.0" text="- заброньовані">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="paidButton" layoutX="859.0" layoutY="272.0" mnemonicParsing="false" onAction="#onPaidButtonClicked" prefHeight="64.0" prefWidth="64.0" styleClass="paidButtonStyle" />
+      <Button fx:id="bookButton" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="731.0" layoutY="272.0" mnemonicParsing="false" onAction="#onBookButtonClicked" prefHeight="64.0" prefWidth="64.0" styleClass="bookedButtonStyle" textAlignment="RIGHT" />
+      <Button fx:id="rebookButton" layoutX="795.0" layoutY="272.0" mnemonicParsing="false" onAction="#onRebookButtonClicked" prefHeight="64.0" prefWidth="64.0" styleClass="rebookButtonStyle" />
+      <Label fx:id="rest" layoutX="888.0" layoutY="547.0" prefHeight="30.0" prefWidth="63.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="821.0" layoutY="547.0" text="Решта:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="getMoney" layoutX="809.0" layoutY="581.0" onKeyReleased="#changedText" prefHeight="25.0" prefWidth="139.0" />
+      <Label layoutX="704.0" layoutY="579.0" text="Прийнято:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="summ" layoutX="759.0" layoutY="547.0" prefHeight="30.0" prefWidth="61.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="704.0" layoutY="544.0" prefHeight="36.0" prefWidth="56.0" text="Сума:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="isOnlinePaid" layoutX="730.0" layoutY="344.0" mnemonicParsing="false" text="Оплачено онлайн" />
+      <Button fx:id="showOnlinePaidButton" layoutX="699.0" layoutY="48.0" mnemonicParsing="false" onAction="#showOnlinePaidButtonClick" prefHeight="32.0" prefWidth="32.0" styleClass="showOnlinePaidButton" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="372.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.ShowResultsController">
+   <children>
+      <TableView fx:id="showResultsTable" prefHeight="300.0" prefWidth="488.0">
+        <columns>
+          <TableColumn fx:id="administrator" prefWidth="174.0" text="Адміністратор" />
+          <TableColumn fx:id="numOfBooked" prefWidth="111.0" text="Заброньованих" />
+            <TableColumn fx:id="numOfPaid" prefWidth="85.0" text="Оплачених" />
+            <TableColumn fx:id="salary" minWidth="0.0" prefWidth="117.0" text="Заробіток" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="110.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.MenuShowKinonichController">
+   <children>
+      <Button fx:id="buttonOk" layoutX="336.0" layoutY="78.0" mnemonicParsing="false" onAction="#OnButtonOkShow" text="Ok" />
+      <Label layoutX="87.0" layoutY="33.0" prefHeight="45.0" prefWidth="113.0" text="Введіть № кіноночі" />
+      <TextField fx:id="getId" layoutX="219.0" layoutY="43.0" />
+   </children>
+</AnchorPane>

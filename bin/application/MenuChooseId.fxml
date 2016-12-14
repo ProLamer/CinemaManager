@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuChooseIdControler">
+   <children>
+      <Button fx:id="buttonOkShow" layoutX="322.0" layoutY="71.0" mnemonicParsing="false" onAction="#onButtonOkClick" text="Ок" />
+      <TextField fx:id="getId" layoutX="205.0" layoutY="39.0" />
+      <Label layoutX="83.0" layoutY="10.0" prefHeight="83.0" prefWidth="117.0" text="Введіть № кіноночі:" />
+   </children>
+</Pane>

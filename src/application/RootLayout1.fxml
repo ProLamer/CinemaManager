@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" prefHeight="665.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#addKinonich" text="Додати кіноніч" />
+                  <MenuItem mnemonicParsing="false" onAction="#showKinonich" text="Показати кіноніч" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteKinonich" text="Видалити кіноніч" />
+                  <MenuItem mnemonicParsing="false" onAction="#changeData" text="Змінити дані про клієнта" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Результат">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onShowResultsClick" text="Показати результат" />
+              <MenuItem mnemonicParsing="false" onAction="#onShowPhonesClick" text="Показати номери телефонів" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Допомога">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onHelpButtonClick" text="Про програму" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
